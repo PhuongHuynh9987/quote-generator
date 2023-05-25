@@ -6,6 +6,7 @@
     <title>Quote Generator</title>
     <link rel="icon" type="image/png" href="quotation.png">     <!-- icons are used from fontawesome.com-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
     <!-- <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=jacinto.design"> -->
 
@@ -16,9 +17,9 @@
     <div class="quote-container" id="quote-container">   <!-- id is for JS-->
         <!-- Create a div for quote -->
         <div class="quote-text">                           <!-- command / for quote -->
-            <img src="/quote-left.svg" class="quote-icon"/>
+            <i class="fas fa-quote-left"></i>
             <span id = 'quote' ></span>              <!-- <span> does not take up any space other than the quote itself-->
-            <img src="/quote-right.svg" class="quote-icon"/>
+            <i class="fas fa-quote-right"></i>
         </div>
         
         <!-- Create a div for author -->
@@ -29,9 +30,9 @@
         <!-- Create a div for button -->
         <div class="button-group1">
             <button id = "fb" title ='Post this!'>
-                <img src="/facebook.png" />
+                <i class="fab fa-facebook-f"></i>
             <button id = "twitter" title ='Tweet this!'>
-                <img src="/twitter.svg"/>
+                <i class="fab fa-twitter"></i>
 
                 <!-- <button id="new-quote" class ='new-quote-button'>New Quote</button> -->
             </button> 
@@ -40,9 +41,8 @@
     </div> 
      <!-- Button for clicking to generate a new quote -->
     <div class = 'button-group2'>
-        <button id="pre-quote" class = 'new-quote-button'>Previous Quote</button>
-        <button id="new-quote" class = 'new-quote-button'>New Quote</button>
-
+        <button id="pre-quote" class = 'new-quote-button1'>Previous Quote</button>
+        <button id="new-quote" class = 'new-quote-button2'>New Quote</button>
     </div>
    
     <!-- Loader -->
