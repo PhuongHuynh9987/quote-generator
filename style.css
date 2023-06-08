@@ -164,6 +164,12 @@ button:active {
     border-top: 1.8rem solid transparent;
     border-bottom: 1.8rem solid transparent;
   }
+	
+.fas{
+  font-size: 2rem;
+  margin-right: 4rem;
+  color: rgb(202, 194, 202);
+}
 
   .quote-container {
     font-family: 'Roboto Slab', serif;
